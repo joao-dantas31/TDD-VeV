@@ -11,7 +11,7 @@ public class TaskManagerImp implements TaskManager {
 
     private final AtomicLong idGenerator;
 
-    TaskManagerImp() {
+    public TaskManagerImp() {
         queue = new ArrayList<>();
         idGenerator = new AtomicLong(1);
     }
